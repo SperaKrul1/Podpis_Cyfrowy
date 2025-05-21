@@ -108,6 +108,6 @@ if __name__ == "__main__":
         loaded_env = json.load(f)
     try:
         decrypt_file("tekst1_decrypted.txt", priv_key, loaded_env)
-        print("✅ Odszyfrowano i podpis jest prawidłowy")
+        print("Odszyfrowano i podpis jest prawidłowy")
     except Exception as e:
-        print("❌ Błąd:", e)
+        print("Błąd:", e)
